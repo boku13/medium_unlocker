@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Medium Unlocker",
+  "version": "1.1",
+  "description": "Unlocks Premium Articles. (Currently redirects premium Medium articles to their archive.ph snapshots.)",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Medium Unlocker"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://archive.ph/https://*"],
+      "js": ["content.js"]
+    }
+  ]
+}
