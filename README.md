@@ -1,2 +1,2 @@
 # medium_unlocker
-Finds and redirects to an archive.org snapshot of premium (any) articles.
+Chrome Extension: Redirects to an archive.org snapshot of premium (any) articles.
